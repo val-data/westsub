@@ -1,0 +1,4 @@
+CREATE OR REPLACE TABLE `glass-arcana-475319-c4.cities_housing_market.illinois_market_2026` AS
+SELECT *
+FROM `glass-arcana-475319-c4.cities_housing_market.raw_usa_housing_2026`
+WHERE `REGION NAME` LIKE '%, IL';
